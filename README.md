@@ -10,7 +10,7 @@ disputes. Press throw to throw the dice. The player with the higher number wins.
 4. BootStrap
 
 ### Link to deployed site
-(https://rsiesener.github.io/diceGame/)
+(https://chipper-pasca-37df1c.netlify.app)
 
 ### Link to repository
 (https://github.com/Rsiesener/diceGame.git)
