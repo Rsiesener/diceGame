@@ -1,6 +1,4 @@
 
-
-
 const imgArray = [
   'dice1.png',
   'dice2.png',
@@ -28,7 +26,6 @@ function getDice(dieOne, dieTwo) {
 }
 
 function setDie(die1, die2) {
-  console.log(typeof(die1))
   document.getElementById('die1').src = './images/' + die1
   document.getElementById('die2').src = './images/' + die2
 
