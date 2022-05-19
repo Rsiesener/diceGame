@@ -1,13 +1,46 @@
 .container {
-  width: 70%;
+  width: 85%;
   margin: auto;
   text-align: center;
 }
 
-.dice {
-  text-align: center;
-  display: inline-block;
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+}
 
+
+
+.die {
+  /* border: 1px solid blue; */
+}
+
+.playBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+}
+
+.btn {
+  height: 20%;
+  font-size: 3vw;
+  background-color: transparent;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  border-radius: 2vh;
+  box-shadow: 2px 4px 5px rgb(163, 87, 87);
+  text-shadow: 0 0 10px rgb(163, 87, 87), 0 0 20px rgb(163, 87, 87), 0 0 30px rgb(163, 87, 87), 0 0 40px rgb(163, 87, 87);
+}
+
+.btn:hover {
+  height: 20%;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  border-radius: 20px;
+  box-shadow: 2px 4px 5px #4ECCA3;
+  text-shadow: 0 0 10px #4ECCA3, 0 0 20px #4ECCA3, 0 0 30px #4ECCA3, 0 0 40px #4ECCA3;
 }
 
 body {
@@ -20,22 +53,26 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ECCA3;
+  text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px yellow, 0 0 40px blue;
+}
+
+h3 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: calc(25px + 9vmin);
+  color: #4ECCA3;
+  text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px yellow, 0 0 40px blue;
 }
 
 p {
   font-size: 2rem;
   color: #4ECCA3;
+  text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px yellow, 0 0 40px blue;
   font-family: 'Indie Flower', cursive;
 }
 
 img {
   width: 80%;
-}
-
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  border-radius: 10px;
 }
