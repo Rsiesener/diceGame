@@ -38,7 +38,7 @@
   height: 20%;
   color: white;
   font-family: 'Indie Flower', cursive;
-  border-radius: 20px;
+  border-radius: 2vh;
   box-shadow: 2px 4px 5px #4ECCA3;
   text-shadow: 0 0 10px #4ECCA3, 0 0 20px #4ECCA3, 0 0 30px #4ECCA3, 0 0 40px #4ECCA3;
 }
